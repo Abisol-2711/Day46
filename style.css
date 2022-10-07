@@ -1,0 +1,41 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background: url("background.jpg") center center fixed;
+    background-size: cover;
+}
+
+h1{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    width: 4em;
+    font-family: "Rubik",sans-serif;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: 20px;
+    cursor: pointer;
+    filter: blur(10px);
+    transition: 0.8s all ease-in-out;
+    -webkit-filter: blur(10px);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -webkit-transition: 0.8s all ease-in-out;
+    -moz-transition: 0.8s all ease-in-out;
+    -ms-transition: 0.8s all ease-in-out;
+    -o-transition: 0.8s all ease-in-out;
+}
+
+h1:hover{
+    filter: blur(0);
+}
